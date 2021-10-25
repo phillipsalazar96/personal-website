@@ -9,7 +9,7 @@
             <div id="nav" class="md:justify-self-end flex flex-col text-2xl mt-2 mr-12 sm:text-center md:flex-row">
                 <router-link to="/" class="links md:mx-6">Home</router-link> |
                 <router-link to="/projects" class="links md:mx-6" >Projects</router-link> |
-              <!--  <router-link to="/blog" class="links md:mx-6" >Blog</router-link> | -->
+                <router-link to="/blog" class="links md:mx-6" >Blog</router-link> |
                 <router-link to="/about" class="links md:mx-6" >About</router-link>
             </div>
         </div>

@@ -40,7 +40,7 @@ export default {
   },
   mounted()
   {
-    axios.get("http://wordpress.test/wp-json/wp/v2/posts?slug=" + this.$route.params.slug).then((result) => {
+    axios.get("http://wordpress.phillipsalazar.com//wp-json/wp/v2/posts?slug=" + this.$route.params.slug).then((result) => {
       console.log(result.data);
      this.post = result.data;
     });

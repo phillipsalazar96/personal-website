@@ -35,7 +35,7 @@ export default {
   mounted ()
   {
     
-    axios.get("http://wordpress.test/wp-json/wp/v2/posts").then((result) => {
+    axios.get("http://wordpress.phillipsalazar.com/wp-json/wp/v2/posts").then((result) => {
       console.log(result.data);
      this.posts = result.data;
     })
